@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-export default function Header({title}: any) {
+export default function Header({title , onPress}: any) {
   // const [title, setTitle] = useState("")
   // const [button,setButton]=useState("")
   switch (title) {
@@ -17,10 +17,10 @@ export default function Header({title}: any) {
         <View style={styles.container}>
           <Image source={require('../assets/icons/olilitlogo.png')} style={{ width: 220, height: 50 }}></Image>
           <View style={styles.btnContainer}>
-            <TouchableOpacity style={styles.button} onPress={() => {}}>
+            <TouchableOpacity style={styles.button} onPress={()=>onPress("notification")}>
                 <Icon name="notifications-outline" size={30} color="#000" />
             </TouchableOpacity>
-            <TouchableOpacity style={styles.button} onPress={() => {}}>
+            <TouchableOpacity style={styles.button} onPress={()=>onPress('settings')}>
                 <Icon name="settings-outline" size={30} color="#000" />
             </TouchableOpacity>
           </View>

@@ -104,9 +104,9 @@ const MainTabs = () => {
 
 const TabButton = ({ title, onPress, active }  : any) => (
   <TouchableOpacity style={styles.tabButton} onPress={onPress}>
-    {title == "Home"?<Icon name="grid-outline" size={30} color="#000" />:
-    title == "Settings"? <Icon name="settings-outline" size={30} color="#000" />:
-    title == "Profile"?<Icon name="ellipsis-horizontal" size={30} color="#000" />: ""}
+    {title == "Home"?<Icon name="grid-outline" size={30} color={active?"#85bc3c": "#000"}/>:
+    title == "Settings"? <Icon name="settings-outline" size={30} color={active?"#85bc3c": "#000"} />:
+    title == "Profile"?<Icon name="ellipsis-horizontal" size={30} color={active?"#85bc3c": "#000"} />: ""}
     
     <Text style={[styles.tabText, active && styles.activeTabText]}>{title}</Text>
   </TouchableOpacity>
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
     color: '#444',
   },
   activeTabText: {
-    color: '#007AFF',
+    color: '#85bc3c',
     fontWeight: 'bold',
   },
 });
