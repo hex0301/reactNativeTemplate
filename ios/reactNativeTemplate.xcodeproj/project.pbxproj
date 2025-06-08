@@ -9,22 +9,50 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-reactNativeTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-reactNativeTemplate.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		156F658A6D284615A1640189 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1307E4A2BE664CC3B894AFC1 /* PlusJakartaSans-SemiBoldItalic.ttf */; };
+		16CB0B03091C4636B98E40C6 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E654F23CA3424150A1E11A39 /* PlusJakartaSans-SemiBold.ttf */; };
+		30F7192417EE4246A90FF65D /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F750AAE6B20453E8902295C /* PlusJakartaSans-Medium.ttf */; };
+		619BD78DF7D84FE7A6168A40 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 717878B2AB0F4706BDD8E2C3 /* PlusJakartaSans-Bold.ttf */; };
+		66A49F4166934D3890574760 /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41F97257041D4E44BFD41684 /* PlusJakartaSans-ExtraLightItalic.ttf */; };
+		680EA98BE7CF4AADA84A6908 /* PlusJakartaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6C7C326957E4DAFB990F9AA /* PlusJakartaSans-MediumItalic.ttf */; };
+		6AE624C93D934CCBB5E82988 /* PlusJakartaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 539EF328A05846D1BB45F947 /* PlusJakartaSans-Light.ttf */; };
+		6DE661E0A8F9427FBC9BA990 /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C2415A4F23C44339962AA0A /* PlusJakartaSans-Regular.ttf */; };
+		6E933A07CD3E4E689C2934F9 /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BC09703FEAD48C6A1D6AECE /* PlusJakartaSans-ExtraBoldItalic.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7D8BFEC0E321451C9FDB5E29 /* PlusJakartaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43BA0E2D89CD434DAD9BBAA6 /* PlusJakartaSans-BoldItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8D2B54E727E04A1BA8901F99 /* PlusJakartaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ABD260314EB46589CC4BA27 /* PlusJakartaSans-LightItalic.ttf */; };
 		911ACD5C74160D0B72027D4A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		CE40C860E7004A389D08717E /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D2A26D203194508A69426DA /* PlusJakartaSans-ExtraBold.ttf */; };
+		E33DC92B889F442C95AC78F4 /* PlusJakartaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1DA021ED9EE48BFA10CAD56 /* PlusJakartaSans-ExtraLight.ttf */; };
+		EF30B883341047B597BF0340 /* PlusJakartaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7431BEA1ED0A47219AB4FFD7 /* PlusJakartaSans-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2A26D203194508A69426DA /* PlusJakartaSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraBold.ttf"; path = "../src/assets/fonts/PlusJakartaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		1307E4A2BE664CC3B894AFC1 /* PlusJakartaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-SemiBoldItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* reactNativeTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactNativeTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactNativeTemplate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactNativeTemplate/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = reactNativeTemplate/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-reactNativeTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeTemplate.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeTemplate/Pods-reactNativeTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		3C2415A4F23C44339962AA0A /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Regular.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
+		41F97257041D4E44BFD41684 /* PlusJakartaSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraLightItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		43BA0E2D89CD434DAD9BBAA6 /* PlusJakartaSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-BoldItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4ABD260314EB46589CC4BA27 /* PlusJakartaSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-LightItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		539EF328A05846D1BB45F947 /* PlusJakartaSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Light.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Light.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-reactNativeTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeTemplate.release.xcconfig"; path = "Target Support Files/Pods-reactNativeTemplate/Pods-reactNativeTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-reactNativeTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717878B2AB0F4706BDD8E2C3 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Bold.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
+		7431BEA1ED0A47219AB4FFD7 /* PlusJakartaSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Italic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Italic.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = reactNativeTemplate/AppDelegate.swift; sourceTree = "<group>"; };
+		7F750AAE6B20453E8902295C /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-Medium.ttf"; path = "../src/assets/fonts/PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactNativeTemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BC09703FEAD48C6A1D6AECE /* PlusJakartaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B1DA021ED9EE48BFA10CAD56 /* PlusJakartaSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-ExtraLight.ttf"; path = "../src/assets/fonts/PlusJakartaSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E654F23CA3424150A1E11A39 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-SemiBold.ttf"; path = "../src/assets/fonts/PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F6C7C326957E4DAFB990F9AA /* PlusJakartaSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "PlusJakartaSans-MediumItalic.ttf"; path = "../src/assets/fonts/PlusJakartaSans-MediumItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +103,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				F02A8AA1B87E42C4BA5A033C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +125,28 @@
 				5709B34CF0A7D63546082F79 /* Pods-reactNativeTemplate.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F02A8AA1B87E42C4BA5A033C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				717878B2AB0F4706BDD8E2C3 /* PlusJakartaSans-Bold.ttf */,
+				43BA0E2D89CD434DAD9BBAA6 /* PlusJakartaSans-BoldItalic.ttf */,
+				0D2A26D203194508A69426DA /* PlusJakartaSans-ExtraBold.ttf */,
+				8BC09703FEAD48C6A1D6AECE /* PlusJakartaSans-ExtraBoldItalic.ttf */,
+				B1DA021ED9EE48BFA10CAD56 /* PlusJakartaSans-ExtraLight.ttf */,
+				41F97257041D4E44BFD41684 /* PlusJakartaSans-ExtraLightItalic.ttf */,
+				7431BEA1ED0A47219AB4FFD7 /* PlusJakartaSans-Italic.ttf */,
+				539EF328A05846D1BB45F947 /* PlusJakartaSans-Light.ttf */,
+				4ABD260314EB46589CC4BA27 /* PlusJakartaSans-LightItalic.ttf */,
+				7F750AAE6B20453E8902295C /* PlusJakartaSans-Medium.ttf */,
+				F6C7C326957E4DAFB990F9AA /* PlusJakartaSans-MediumItalic.ttf */,
+				3C2415A4F23C44339962AA0A /* PlusJakartaSans-Regular.ttf */,
+				E654F23CA3424150A1E11A39 /* PlusJakartaSans-SemiBold.ttf */,
+				1307E4A2BE664CC3B894AFC1 /* PlusJakartaSans-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +212,20 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				911ACD5C74160D0B72027D4A /* PrivacyInfo.xcprivacy in Resources */,
+				619BD78DF7D84FE7A6168A40 /* PlusJakartaSans-Bold.ttf in Resources */,
+				7D8BFEC0E321451C9FDB5E29 /* PlusJakartaSans-BoldItalic.ttf in Resources */,
+				CE40C860E7004A389D08717E /* PlusJakartaSans-ExtraBold.ttf in Resources */,
+				6E933A07CD3E4E689C2934F9 /* PlusJakartaSans-ExtraBoldItalic.ttf in Resources */,
+				E33DC92B889F442C95AC78F4 /* PlusJakartaSans-ExtraLight.ttf in Resources */,
+				66A49F4166934D3890574760 /* PlusJakartaSans-ExtraLightItalic.ttf in Resources */,
+				EF30B883341047B597BF0340 /* PlusJakartaSans-Italic.ttf in Resources */,
+				6AE624C93D934CCBB5E82988 /* PlusJakartaSans-Light.ttf in Resources */,
+				8D2B54E727E04A1BA8901F99 /* PlusJakartaSans-LightItalic.ttf in Resources */,
+				30F7192417EE4246A90FF65D /* PlusJakartaSans-Medium.ttf in Resources */,
+				680EA98BE7CF4AADA84A6908 /* PlusJakartaSans-MediumItalic.ttf in Resources */,
+				6DE661E0A8F9427FBC9BA990 /* PlusJakartaSans-Regular.ttf in Resources */,
+				16CB0B03091C4636B98E40C6 /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				156F658A6D284615A1640189 /* PlusJakartaSans-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,13 +256,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reactNativeTemplate/Pods-reactNativeTemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reactNativeTemplate/Pods-reactNativeTemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -234,13 +295,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reactNativeTemplate/Pods-reactNativeTemplate-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-reactNativeTemplate/Pods-reactNativeTemplate-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -386,7 +443,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -455,7 +515,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
