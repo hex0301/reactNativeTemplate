@@ -1,55 +1,8 @@
-// import Ionicons from 'react-native-vector-icons/Ionicons';
-// import React from 'react';
-// import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+
 import Header from '../components/Headers';
 import Tab1 from '../screens/tabs/Tab1';
 import Tab2 from '../screens/tabs/Tab2';
 import Tab3 from '../screens/tabs/Tab3';
-// import { StyleSheet } from 'react-native';
-
-
-// const Tab = createBottomTabNavigator();
-
-// export default function MainTabs() {
-//   return (
-//    <Tab.Navigator
-//     screenOptions={({ route }) => ({
-//     tabBarIcon: ({ focused, color, size }) => {
-//       let iconName = "";
-//       if (route.name === 'Tab 1') {
-//         iconName = focused ? 'home' : 'home-outline';
-//       } else if (route.name === 'Tab 2') {
-//         iconName = focused ? 'settings' : 'settings-outline';
-//       } else if (route.name === 'Tab 3') {
-//         iconName = focused ? 'person' : 'person-outline';
-//       }
-//       return <Ionicons name={iconName} size={size} color={color} />;
-//     },
-//     tabBarActiveTintColor: '#007AFF',
-//     tabBarInactiveTintColor: 'gray',
-//     tabBarPosition : "bottom",
-//     tabBarStyle: {
-//       backgroundColor: 'aqua',
-//       height: 70,
-//       width:"95%",
-//       marginLeft: '2.5%',
-//       marginBottom: 30,
-//       borderRadius: 10,
-//     },
-//     headerShown: false,
-//   })}
-// >
-//   <Tab.Screen name="Dashboard" component={Tab1} />
-//   <Tab.Screen name="Tab 2" component={Tab2} />
-//   <Tab.Screen name="Tab 3" component={Tab3} />
-// </Tab.Navigator>
-//   );
-// }
-
-
-
-
-// App.js
 import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
