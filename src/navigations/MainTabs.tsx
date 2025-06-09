@@ -1,6 +1,7 @@
 // import Ionicons from 'react-native-vector-icons/Ionicons';
 // import React from 'react';
 // import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import Header from '../components/Headers';
 import Tab1 from '../screens/tabs/Tab1';
 import Tab2 from '../screens/tabs/Tab2';
 import Tab3 from '../screens/tabs/Tab3';
@@ -49,30 +50,19 @@ import Tab3 from '../screens/tabs/Tab3';
 
 
 // App.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-const HomeScreen = () => (
-  <View style={styles.screen}>
-    <Text style={styles.text}>Home Screen</Text>
-  </View>
-);
-
-const SettingsScreen = () => (
-  <View style={styles.screen}>
-    <Text style={styles.text}>Settings Screen</Text>
-  </View>
-);
-
-const ProfileScreen = () => (
-  <View style={styles.screen}>
-    <Text style={styles.text}>Profile Screen</Text>
-  </View>
-);
-
 const MainTabs = () => {
   const [activeTab, setActiveTab] = useState('Home');
+  let layout : string = ""
+  useEffect(() => {
+  }, [activeTab]);
+  
+  const handlePress = (data:string) =>{
+    console.log(data)
+  }
 
   const renderScreen = () => {
     switch (activeTab) {
@@ -89,12 +79,18 @@ const MainTabs = () => {
 
   return (
     <SafeAreaView style={styles.container}>
+      <View>
+        {activeTab == "Home"?<Header title="Dashboard" onPress={handlePress}></Header>:
+        activeTab == "Settings"?<Header title="Payout" onPress={handlePress}></Header>:
+        activeTab == "Profile"?<Header title="Settings" onPress={handlePress}></Header>:
+        ""
+        }
+      </View>
       <View style={styles.content}>
         {renderScreen()}
       </View>
       <View style={styles.tabBar}>
-        <TabButton title="Home" active={activeTab === 'Home'} onPress={() => setActiveTab('Home')} 
-          />
+        <TabButton title="Home" active={activeTab === 'Home'} onPress={() => setActiveTab('Home')} />
         <TabButton title="Settings" active={activeTab === 'Settings'} onPress={() => setActiveTab('Settings')} />
         <TabButton title="Profile" active={activeTab === 'Profile'} onPress={() => setActiveTab('Profile')} />
       </View>
@@ -117,6 +113,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   content: {
+    marginTop:80,
     flex: 1,
   },
   screen: {
@@ -134,8 +131,6 @@ const styles = StyleSheet.create({
     marginLeft:"2.5%",
     backgroundColor:'#fff',
     borderRadius: 15,
-
-
   },
   tabButton: {
     flex: 1,

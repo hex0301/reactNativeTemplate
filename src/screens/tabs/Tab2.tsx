@@ -8,7 +8,7 @@ export default function Tab2() {
 
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Header title="Payout"></Header>
+      {/* <Header title="Payout"></Header> */}
       <Text>Home Screen2</Text>
       <Button title="Logout" onPress={logout} />
     </View>
