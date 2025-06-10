@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import {
   View,
   Text,
@@ -9,18 +9,19 @@ import {
   Pressable,
   UIManager,
   findNodeHandle,
+  Image
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 const OPTIONS = ['Day', 'Week', 'Month', 'MTD', 'YTD', 'Custom'];
 
-function Dropdown ({onPress} : any){
-  const [selected, setSelected] = useState('Week');
+function Dropdown ({onPress,options} : any){
+  const [dashboardSelected, setDashboardSelected] = useState('Week');
   const [showMenu, setShowMenu] = useState(false);
   const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
   const buttonRef = useRef(null);
 
- const toggleMenu = () => {
+  const toggleMenu = () => {
   if (!showMenu) {
     const handle = findNodeHandle(buttonRef.current);
     if (handle != null) {
@@ -34,24 +35,51 @@ function Dropdown ({onPress} : any){
   }
 };
 
+ 
+
+ 
+ 
   const handleSelect = (value: React.SetStateAction<string>) => {
-    setSelected(value);
+   setDashboardSelected(value) 
     setShowMenu(false);
     onPress(value)
   };
 
-  return (
-    <View>
-      <TouchableOpacity
+  const Dashboard = () =>(
+    <TouchableOpacity
         ref={buttonRef}
         style={styles.dropdownButton}
         onPress={toggleMenu}
         activeOpacity={0.7}
       >
-        <Text style={styles.selectedText}>{selected}</Text>
+        <Text style={styles.selectedText}>{dashboardSelected}</Text>
         <Icon name={showMenu ? 'chevron-up-outline' : 'chevron-down-outline'} size={16} color="white" />
-      </TouchableOpacity>
-
+      </TouchableOpacity> 
+  );
+   const DashboardList = () =>(
+    OPTIONS.map((option) => (
+                    <TouchableOpacity
+                      key={option}
+                      style={[
+                        styles.item,
+                        option === dashboardSelected && styles.customItem,
+                      ]}
+                      onPress={() => handleSelect(option)}
+                    >
+                      <Text
+                        style={[
+                          styles.itemText,
+                          option === dashboardSelected && styles.customItemText,
+                        ]}
+                      >
+                        {option}
+                      </Text>
+                    </TouchableOpacity>
+      ))
+   )
+  return (
+    <View>
+      <Dashboard />
       {showMenu && (
         <Modal transparent animationType="none" visible={showMenu}>
           <Pressable style={styles.overlay} onPress={() => setShowMenu(false)}>
@@ -61,29 +89,11 @@ function Dropdown ({onPress} : any){
                 {
                   top: dropdownPosition.top,
                   left: dropdownPosition.left,
-                  width: dropdownPosition.width,
+                  width:dropdownPosition.width,
                 },
               ]}
             >
-              {OPTIONS.map((option) => (
-                <TouchableOpacity
-                  key={option}
-                  style={[
-                    styles.item,
-                    option === selected && styles.customItem,
-                  ]}
-                  onPress={() => handleSelect(option)}
-                >
-                  <Text
-                    style={[
-                      styles.itemText,
-                      option === selected && styles.customItemText,
-                    ]}
-                  >
-                    {option}
-                  </Text>
-                </TouchableOpacity>
-              ))}
+            <DashboardList />
             </View>
           </Pressable>
         </Modal>

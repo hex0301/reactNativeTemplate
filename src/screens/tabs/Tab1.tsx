@@ -3,16 +3,15 @@ import {View, Text, Button, StyleSheet, ScrollView, Dimensions, SafeAreaView} fr
 import {AuthContext} from '../../context/AuthContext';
 import Header from '../../components/Headers';
 import {Image} from 'react-native';
-import DonutChartWithLegend, {
-  chartData,
-} from '../../components/ DonutChartWithLegend';
+import DonutChartWithLegend from '../../components/ DonutChartWithLegend';
 
-export default function Tab1({onpress}:any) {
+export default function Tab1(data:any) {
   const {logout} = useContext(AuthContext);
   const SCREEN_WIDTH = Dimensions.get('window').width;
-  const handlePress = (data: string) => {
-    console.log(chartData);
-    console.log('press me', data);
+
+
+  const handleFilter = (data: string) => {
+    console.log('press me tabs1', data);
   };
 
 
@@ -32,9 +31,9 @@ export default function Tab1({onpress}:any) {
   // );
   return (
     <ScrollView>
-    <View style={{justifyContent: 'center',alignItems: 'center'}}>
+    <View style={{justifyContent: 'center',alignItems: 'center', marginTop:80}}>
       <View>
-        <DonutChartWithLegend />
+        <DonutChartWithLegend onPress={handleFilter} />
       </View>
       
       <View style={styles.container}>

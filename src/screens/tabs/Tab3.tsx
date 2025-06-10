@@ -10,7 +10,8 @@ type RootStackParamList = {
 };
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
-export default function Tab3() {
+export default function Tab3(data :any) {
+  console.log("tab3",data)
   const navigation = useNavigation<NavigationProp>();
   const { logout } = useContext(AuthContext);
 

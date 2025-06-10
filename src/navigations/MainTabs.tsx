@@ -1,30 +1,43 @@
-
+// import Ionicons from 'react-native-vector-icons/Ionicons';
+// import React from 'react';
+// import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Header from '../components/Headers';
 import Tab1 from '../screens/tabs/Tab1';
 import Tab2 from '../screens/tabs/Tab2';
 import Tab3 from '../screens/tabs/Tab3';
+
+
+// App.js
 import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 const MainTabs = () => {
   const [activeTab, setActiveTab] = useState('Home');
-  let layout : string = ""
-  useEffect(() => {
-  }, [activeTab]);
+
+  //signals for header buttons
+  const [signal , setSignal]  = useState("")
+
+
   
   const handlePress = (data:string) =>{
-    console.log(data)
+    console.log("maintabs",data)
+    setSignal(data)
   }
 
+
+const handleDataFromTab2 = (value: string) => {
+  console.log("Data from Tab2:", value);
+  setSignal(value);
+};
   const renderScreen = () => {
     switch (activeTab) {
       case 'Home':
-        return <Tab1 />;
+        return <Tab1 data={signal}/>;
       case 'Settings':
-        return <Tab2 />;
+        return <Tab2 data={signal} onData={handleDataFromTab2}/>;
       case 'Profile': 
-        return <Tab3 />;
+        return <Tab3 data={signal}/>;
       default:
         return <Tab1 />;
     }
@@ -33,19 +46,30 @@ const MainTabs = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View>
-        {activeTab == "Home"?<Header title="Dashboard" onPress={handlePress}></Header>:
-        activeTab == "Settings"?<Header title="Payout" onPress={handlePress}></Header>:
-        activeTab == "Profile"?<Header title="Settings" onPress={handlePress}></Header>:
-        ""
+        <Header
+        title={
+          activeTab === 'Home' ? 'Dashboard' :
+          // activeTab === 'Settings' ? 'Payout' :
+          activeTab === 'Profile' ? 'Settings' : ''
         }
+        onPress={handlePress}
+        />
       </View>
       <View style={styles.content}>
         {renderScreen()}
       </View>
       <View style={styles.tabBar}>
-        <TabButton title="Home" active={activeTab === 'Home'} onPress={() => setActiveTab('Home')} />
-        <TabButton title="Settings" active={activeTab === 'Settings'} onPress={() => setActiveTab('Settings')} />
-        <TabButton title="Profile" active={activeTab === 'Profile'} onPress={() => setActiveTab('Profile')} />
+        <TabButton title="Home" active={activeTab === 'Home'} onPress={() => {
+          setActiveTab('Home')
+          setSignal("")
+          }} />
+        <TabButton title="Settings" active={activeTab === 'Settings'} onPress={() =>{ 
+          setActiveTab('Settings')
+          }} />
+        <TabButton title="Profile" active={activeTab === 'Profile'} onPress={() => {
+          setActiveTab('Profile')
+          setSignal("")
+          }} />
       </View>
     </SafeAreaView>
   );
@@ -64,9 +88,9 @@ const TabButton = ({ title, onPress, active }  : any) => (
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor:"#fbfbfb"
   },
   content: {
-    marginTop:80,
     flex: 1,
   },
   screen: {

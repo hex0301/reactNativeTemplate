@@ -1,0 +1,292 @@
+[
+    {
+        "payout_id": "1626531568459715364",
+        "remarks": "52031 - Han, Alice - pre-settlement funding",
+        "created_date": "2025-06-06 02:09:14 PM",
+        "stateCode": "PAYOUT-001",
+        "stateDescription": "Payout Issued",
+        "claims_total": 1,
+        "no_of_claimed": 0,
+        "contract_id": "5203101",
+        "total_amount_claimed": "0.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "1000.00",
+        "total_amount_commited": "1000.00",
+        "claims": [
+            {
+                "claim_id": "1626531568979809062",
+                "claim_contract_id": "5203101",
+                "claim_memo": "972b2ac0-3cd3-11f0-98f2-db2b3e716e8e funding ",
+                "claim_amount": "1000.00",
+                "claim_create_date": "2025-06-06 02:09:42 PM",
+                "claim_update_date": "2025-06-06 02:09:42 PM",
+                "claim_status_code": "CLAIM-009",
+                "claim_status_description": "Claim Approved",
+                "claim_recipient_id": "1626531558334665500",
+                "claim_recipient": "Alice Han",
+                "claim_recipient_email": "christienfroi.feliciano.xentra+clian@gmail.com"
+            }
+        ]
+    },
+    {
+        "payout_id": "1626484850959586708",
+        "remarks": "52015 - Phisharody, Aniruhd - pre-settlement funding",
+        "created_date": "2025-06-06 12:36:25 PM",
+        "stateCode": "PAYOUT-003",
+        "stateDescription": "Payout Canceled",
+        "claims_total": 0,
+        "no_of_claimed": 0,
+        "contract_id": "5201501",
+        "total_amount_claimed": "0.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "0.00",
+        "total_amount_commited": "0.00",
+        "claims": [
+            {
+                "claim_id": "1626484851471291798",
+                "claim_contract_id": "5201501",
+                "claim_memo": "50e462c0-3b07-11f0-b4dc-f9a9a5676c40 funding ",
+                "claim_amount": "1000.00",
+                "claim_create_date": "2025-06-09 09:40:21 AM",
+                "claim_update_date": "2025-06-09 09:40:21 AM",
+                "claim_status_code": "CLAIM-006",
+                "claim_status_description": "Claim Deactivated",
+                "claim_recipient_id": "1626484839836292492",
+                "claim_recipient": "Aniruhd Phisharody",
+                "claim_recipient_email": "christienfroi.feliciano.xentra+ani118@gmail.com"
+            }
+        ]
+    },
+    {
+        "payout_id": "1625558178932464778",
+        "remarks": "51942 - Beardsley, Ally - pre-settlement funding",
+        "created_date": "2025-06-05 05:55:17 AM",
+        "stateCode": "PAYOUT-003",
+        "stateDescription": "Payout Canceled",
+        "claims_total": 0,
+        "no_of_claimed": 0,
+        "contract_id": "5194201",
+        "total_amount_claimed": "0.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "0.00",
+        "total_amount_commited": "0.00",
+        "claims": [
+            {
+                "claim_id": "1625558179544833164",
+                "claim_contract_id": "5194201",
+                "claim_memo": "c02becd0-2a80-11f0-94a5-175770ddcd9f funding ",
+                "claim_amount": "1000.00",
+                "claim_create_date": "2025-06-05 06:07:37 AM",
+                "claim_update_date": "2025-06-05 06:07:37 AM",
+                "claim_status_code": "CLAIM-006",
+                "claim_status_description": "Claim Deactivated",
+                "claim_recipient_id": "1603928900100952851",
+                "claim_recipient": "Ally Beardsley",
+                "claim_recipient_email": "christienfroi.feliciano.xentra+a118@gmail.com"
+            }
+        ]
+    },
+    {
+        "payout_id": "1625272645480094263",
+        "remarks": "51992 - Ricefield, Kaitlin - pre-settlement funding",
+        "created_date": "2025-06-04 08:27:59 PM",
+        "stateCode": "PAYOUT-003",
+        "stateDescription": "Payout Canceled",
+        "claims_total": 0,
+        "no_of_claimed": 0,
+        "contract_id": "5199201",
+        "total_amount_claimed": "0.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "0.00",
+        "total_amount_commited": "0.00",
+        "claims": [
+            {
+                "claim_id": "1625272645941467705",
+                "claim_contract_id": "5199201",
+                "claim_memo": "62d70da0-35e1-11f0-be7f-390a0e9465ad funding ",
+                "claim_amount": "1000.00",
+                "claim_create_date": "2025-06-09 10:13:15 AM",
+                "claim_update_date": "2025-06-09 10:13:15 AM",
+                "claim_status_code": "CLAIM-006",
+                "claim_status_description": "Claim Deactivated",
+                "claim_recipient_id": "1614341452140125000",
+                "claim_recipient": "Kaitlin Ricefield",
+                "claim_recipient_email": "kathleen.palayan+003@xentragroup.com"
+            }
+        ]
+    },
+    {
+        "payout_id": "1625024763531368837",
+        "remarks": "52029 - Buckley, Isabella - pre-settlement funding",
+        "created_date": "2025-06-04 12:15:29 PM",
+        "stateCode": "PAYOUT-001",
+        "stateDescription": "Payout Issued",
+        "claims_total": 1,
+        "no_of_claimed": 1,
+        "contract_id": "5202901",
+        "total_amount_claimed": "1000.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "1000.00",
+        "total_amount_commited": "1000.00",
+        "claims": [
+            {
+                "claim_id": "1625024764026296711",
+                "claim_contract_id": "5202901",
+                "claim_memo": "2d83a5a0-3ca8-11f0-90d0-29dfb284119d funding ",
+                "claim_amount": "1000.00",
+                "claim_create_date": "2025-06-04 12:24:23 PM",
+                "claim_update_date": "2025-06-04 12:24:23 PM",
+                "claim_status_code": "CLAIM-002",
+                "claim_status_description": "Claim Issued Successfully",
+                "claim_recipient_id": "1625024756359108989",
+                "claim_recipient": "Isabella Buckley",
+                "claim_recipient_email": "christienfroi.feliciano.xentra+ib118@gmail.com"
+            }
+        ]
+    },
+    {
+        "payout_id": "1624533930390590387",
+        "remarks": "51997 - Anoa'i, Jo'an - pre-settlement funding",
+        "created_date": "2025-06-03 08:00:17 PM",
+        "stateCode": "PAYOUT-001",
+        "stateDescription": "Payout Issued",
+        "claims_total": 1,
+        "no_of_claimed": 0,
+        "contract_id": "5199701",
+        "total_amount_claimed": "0.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "1000.00",
+        "total_amount_commited": "1000.00",
+        "claims": [
+            {
+                "claim_id": "1624533930776466357",
+                "claim_contract_id": "5199701",
+                "claim_memo": "196ad5b0-30d3-11f0-adc8-454de0005153 funding ",
+                "claim_amount": "1000.00",
+                "claim_create_date": "2025-06-03 08:18:18 PM",
+                "claim_update_date": "2025-06-03 08:18:18 PM",
+                "claim_status_code": "CLAIM-009",
+                "claim_status_description": "Claim Approved",
+                "claim_recipient_id": "1624533922958283691",
+                "claim_recipient": "Jo'an Anoa'i",
+                "claim_recipient_email": "christienfroi.feliciano.xentra+j1233@gmail.com"
+            }
+        ]
+    },
+    {
+        "payout_id": "1624512715701621629",
+        "remarks": "52016 - Panikkar, Ravi - pre-settlement funding",
+        "created_date": "2025-06-03 07:18:08 PM",
+        "stateCode": "PAYOUT-001",
+        "stateDescription": "Payout Issued",
+        "claims_total": 1,
+        "no_of_claimed": 1,
+        "contract_id": "5201602",
+        "total_amount_claimed": "100.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "100.00",
+        "total_amount_commited": "100.00",
+        "claims": [
+            {
+                "claim_id": "1624512716129440639",
+                "claim_contract_id": "5201602",
+                "claim_memo": "f8056420-3b0a-11f0-9b35-9133e0447528 funding ",
+                "claim_amount": "100.00",
+                "claim_create_date": "2025-06-05 11:23:12 AM",
+                "claim_update_date": "2025-06-05 11:23:12 AM",
+                "claim_status_code": "CLAIM-002",
+                "claim_status_description": "Claim Issued Successfully",
+                "claim_recipient_id": "1619911504981663598",
+                "claim_recipient": "Ravi Panikkar",
+                "claim_recipient_email": "christienfroi.feliciano.xentra+pani118@gmail.com"
+            }
+        ]
+    },
+    {
+        "payout_id": "1619967413334315056",
+        "remarks": "52021 - Vaquer, Stephanie - pre-settlement funding",
+        "created_date": "2025-05-28 12:47:26 PM",
+        "stateCode": "PAYOUT-003",
+        "stateDescription": "Payout Canceled",
+        "claims_total": 0,
+        "no_of_claimed": 0,
+        "contract_id": "5202101",
+        "total_amount_claimed": "0.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "0.00",
+        "total_amount_commited": "0.00",
+        "claims": [
+            {
+                "claim_id": "1619967414802321458",
+                "claim_contract_id": "5202101",
+                "claim_memo": "8b8a9b10-3bed-11f0-b286-dbed74344526 funding ",
+                "claim_amount": "900.00",
+                "claim_create_date": "2025-05-30 08:23:12 PM",
+                "claim_update_date": "2025-05-30 08:23:12 PM",
+                "claim_status_code": "CLAIM-006",
+                "claim_status_description": "Claim Deactivated",
+                "claim_recipient_id": "1619967403167322152",
+                "claim_recipient": "Stephanie Vaquer",
+                "claim_recipient_email": "christienfroi.feliciano.xentra+vac118@gmail.com"
+            }
+        ]
+    },
+    {
+        "payout_id": "1619937212382580769",
+        "remarks": "51999 - Mysterio, Dominik - pre-settlement funding",
+        "created_date": "2025-05-28 11:47:26 AM",
+        "stateCode": "PAYOUT-002",
+        "stateDescription": "Payout Rejected",
+        "claims_total": 1,
+        "no_of_claimed": 0,
+        "contract_id": "5199901",
+        "total_amount_claimed": "0.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "1000.00",
+        "total_amount_commited": "1000.00",
+        "claims": [
+            {
+                "claim_id": "1619937212768456739",
+                "claim_contract_id": "5199901",
+                "claim_memo": "72a32160-3681-11f0-8a1e-23592fd2d282 funding ",
+                "claim_amount": "1000.00",
+                "claim_create_date": "2025-05-30 08:35:50 PM",
+                "claim_update_date": "2025-05-30 08:35:50 PM",
+                "claim_status_code": "CLAIM-005",
+                "claim_status_description": "Claim Canceled via Payout Request Rejection",
+                "claim_recipient_id": "1619921516281995232",
+                "claim_recipient": "Dominik Mysterio",
+                "claim_recipient_email": "christienfroi.feliciano.xentra+dom123@gmail.com"
+            }
+        ]
+    },
+    {
+        "payout_id": "1619936867594014747",
+        "remarks": "51987 - Choi, Kenneth - pre-settlement funding",
+        "created_date": "2025-05-28 11:46:45 AM",
+        "stateCode": "PAYOUT-002",
+        "stateDescription": "Payout Rejected",
+        "claims_total": 1,
+        "no_of_claimed": 0,
+        "contract_id": "5198702",
+        "total_amount_claimed": "0.00",
+        "total_amount_expired": "0.00",
+        "total_amount_requested": "1000.00",
+        "total_amount_commited": "1000.00",
+        "claims": [
+            {
+                "claim_id": "1619936868038610973",
+                "claim_contract_id": "5198702",
+                "claim_memo": "4e47bc00-34be-11f0-8257-cbfd1114e6a3 funding ",
+                "claim_amount": "1000.00",
+                "claim_create_date": "2025-06-09 10:13:46 AM",
+                "claim_update_date": "2025-06-09 10:13:46 AM",
+                "claim_status_code": "CLAIM-005",
+                "claim_status_description": "Claim Canceled via Payout Request Rejection",
+                "claim_recipient_id": "1613315449708090304",
+                "claim_recipient": "Kenneth Choi",
+                "claim_recipient_email": "christienfroi.feliciano.xentra+choi118@gmail.com"
+            }
+        ]
+    }
+]

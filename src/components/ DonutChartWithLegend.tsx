@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import PieChart from 'react-native-pie-chart';
-import CustomDropdown from './Dropdown';
+import Dropdown from './Dropdown';
 
 interface ChartDataItem {
   label: string;
@@ -16,17 +16,18 @@ export const chartData: ChartDataItem[] = [
   {label: 'Pending', value: 50, amount: 101300, color: '#388E3C'},
 ];
 
-const DonutChartWithLegend: React.FC = () => {
+const DonutChartWithLegend  = ({onPress}: any) => {
   const total = chartData.reduce((sum, item) => sum + item.value, 0);
    const handleSelected = (data : string) =>{
-      console.log("press me" , data)
+      onPress(data)
+      console.log("donut page" , data)
     }
   return (
     <View style={{ flexDirection:"column",backgroundColor:"#fff",borderRadius:10 ,maxHeight:'100%', width:"100%", height: "auto"}}>
       <View style={{display:"flex",flexDirection:"row",justifyContent:"space-between",padding:30,paddingBottom:5 ,alignItems:"center"}}>
         <Text style={{flex:1}}>Payouts overview</Text>
         <View style={{flex:.5}}>
-             <CustomDropdown onPress={handleSelected}></CustomDropdown>
+             <Dropdown onPress={handleSelected} options={"dashboard"}></Dropdown>
         </View>
       </View>
 
